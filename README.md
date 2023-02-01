@@ -20,7 +20,7 @@ After script finishes:
 - Click on the extensions > apps script menu
 - Copy the script.gs file and paste it into the editor
 - Click on save
-- Select linkFiles function in the top menu and click run
+- Select **main** function in the top menu and click run
 - You will have to authorize the script's scopes and then you will have to re-run after you've accepted
 
 Note: 
