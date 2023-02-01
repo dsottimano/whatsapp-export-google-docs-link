@@ -43,6 +43,5 @@ function linkFiles_() {
 function getFolderFromThisSpreadsheet_() {
   let doc = DocumentApp.getActiveDocument()
   let folder = DriveApp.getFileById(doc.getId()).getParents().next()
-  console.log(folder.getId())
   return folder.getId()
 }
